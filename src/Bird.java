@@ -51,4 +51,8 @@ public class Bird {
     public double mult2nums(double a, double b){    // formal params
         return a*b;
     }
+
+    public String toString(){
+        return super.toString() +" Name: " + name + " Size: " + size + " Age: " + getAge();
+    }
 }

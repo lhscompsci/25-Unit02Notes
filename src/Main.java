@@ -42,6 +42,8 @@ public class Main {
         System.out.println(String.format("%-6d",125) + "more stuff");
         System.out.println(String.format("%06d",125));
 
+        String output = ""+tweety;
+        System.out.println(output);
 
     }
 }
